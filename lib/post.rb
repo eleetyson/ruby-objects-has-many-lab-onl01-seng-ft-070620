@@ -14,7 +14,6 @@ class Post
   end
   
   def author_name
-    binding.pry
     self.author == nil ? nil : self.author.name
   end
   
